@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HreurekaserverApplication",
+            "request": "launch",
+            "mainClass": "com.vanderleiks.hreurekaserver.HreurekaserverApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-HrworkerApplication<hrworker>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -18,6 +24,16 @@
             "console": "internalConsole",
             "mainClass": "com.vanderleiks.hrpayroll.HrpayrollApplication",
             "projectName": "hrpayroll",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HreurekaserverApplication<hreurekaserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.vanderleiks.hreurekaserver.HreurekaserverApplication",
+            "projectName": "hreurekaserver",
             "args": ""
         }
     ]
