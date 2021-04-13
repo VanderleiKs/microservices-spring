@@ -1,6 +1,6 @@
 package com.vanderleiks.hrpayroll.services;
 
-import com.vanderleiks.hrpayroll.config.Feign;
+import com.vanderleiks.hrpayroll.config.WorkerFeignClient;
 import com.vanderleiks.hrpayroll.entities.Payment;
 import com.vanderleiks.hrpayroll.entities.Worker;
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class PaymentService {
 
    @Autowired
-   private Feign feign;
+   private WorkerFeignClient feign;
 
     public Payment getPayment(Long workerId, int days){
         Worker worker = feign.findById(workerId).getBody();
