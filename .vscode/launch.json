@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-HrworkerApplication<hrworker>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.vanderleks.hrworker.HrworkerApplication",
+            "projectName": "hrworker",
+            "args": ""
+        }
+    ]
+}
