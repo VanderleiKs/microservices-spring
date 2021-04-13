@@ -9,6 +9,16 @@
             "mainClass": "com.vanderleks.hrworker.HrworkerApplication",
             "projectName": "hrworker",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrpayrollApplication<hrpayroll>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.vanderleiks.hrpayroll.HrpayrollApplication",
+            "projectName": "hrpayroll",
+            "args": ""
         }
     ]
 }
